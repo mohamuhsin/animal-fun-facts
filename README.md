@@ -9,3 +9,5 @@ In this project, we’ll build a program that allows users to click an animal on
 For now, let’s import the React from react and createRoot from react-dom/client.
 
 **2.** Click on index.html to find out the id of the HTML element to get a reference of. Use this id and the document object to get a reference of this element and store it in a constant called container.
+
+**3.** Create a React root so you can render content using the createRoot() method, passing container as an argument. Store this root in a constant called root.
