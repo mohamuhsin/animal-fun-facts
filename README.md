@@ -27,3 +27,16 @@ Using the ternary operator, let the < h1 > heading use ‘Click an animal for a 
 Let’s pass in animalFacts as the JSX expression that we want to be compiled and rendered.
 
 When finished, click Save. If all goes well, we should see the text ‘Click an animal for a fun fact!’ appear on the screen!
+
+### Add a Background
+
+7.
+Let’s add a background!
+
+Somewhere above where animalFacts is defined, create a constant named background. Set its value to a <img /> element.
+
+Now let’s give it some attributes:
+
+Give it a class of 'background'
+Let’s use 'ocean' for alt.
+Finally, use '/images/ocean.jpg' as the value of src.
