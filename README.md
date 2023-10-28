@@ -39,3 +39,9 @@ Now let’s give it some attributes:
 - Give it a class of 'background'
 - Let’s use 'ocean' for alt.
 - Finally, use '/images/ocean.jpg' as the value of src.
+
+**8.** Let’s reformat the JSX expression stored in animalFacts to include the background variable.
+
+Wrap the current < h1 > element and our new background variable inside of <div></div> tags. Since the expression is going to be multiple lines, wrap it in parentheses.
+
+Click Save. If everything is working as it should, we should see our background image showing up underneath the title!
