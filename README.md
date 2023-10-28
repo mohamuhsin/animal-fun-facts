@@ -1,3 +1,9 @@
 # animal fun facts
 
 In this project, we’ll build a program that allows users to click an animal on the screen in order to have a fun fact pop up.
+
+# Tasks
+
+1.On line 1 in app.js, you should see an import statement. This is importing the animals object from animals.js. Feel free to take a look at it now, but we’ll be coming back to it in later tasks.
+
+For now, let’s import the React from react and createRoot from react-dom/client.
