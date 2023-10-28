@@ -82,3 +82,17 @@ Finally, click Save. We should see our animals!
 In the for...in loop, inside each <img>, add an onClick event listener that calls displayFact.
 Inside displayFact() use document.getElementById('fact') to grab the < p > element where we’ll add our fact. Change the .innerHTML of the < p > element to our randomly selected fact.
 Now save the code and click on an animal. We should see a fact pop up on the screen!
+
+### Extra Credit
+
+**14.** Let’s add one last feature to our awesome app!
+
+Create a showBackground constant. You can set its value to either true or false.
+
+If showBackground is true, background should show up. If it’s false, it should not. Use the && operator in animalFacts to implement this feature.
+
+Toggle the value of showBackground between true and false and save the code to see if you got it working!
+
+Optional Task: In addition to the AND && operator, we can use the OR || operator. Given a list of variables or expressions, || will return the value of the first one whose boolean evaluates to true.
+
+Considering that the boolean of an empty string is false, can you think of a way to use || to replace the ternary operator in the heading?
