@@ -73,3 +73,6 @@ Finally, click Save. We should see our animals!
 - Inside of the function, use e.target.alt to get the name of the animal being clicked.
 - Generate a random index and use it to access an element in the animal’s .facts array.
 - Save the fun fact in a variable.
+
+
+**12.** We need a place to display our facts. Create an empty < p > element in animalFacts and give it an id attribute equal to 'fact'.
