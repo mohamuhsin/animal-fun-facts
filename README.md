@@ -45,3 +45,16 @@ Now let’s give it some attributes:
 Wrap the current < h1 > element and our new background variable inside of < div >< /div > tags. Since the expression is going to be multiple lines, wrap it in parentheses.
 
 Click Save. If everything is working as it should, we should see our background image showing up underneath the title!
+
+### Add an Array of Images
+
+**9.** Use a for...in loop to iterate over the animals object that we’re importing on line 1. Before the animalFacts definition, define an images array. For each animal, add a new <img /> to that array.
+
+Assuming animal is the placeholder variable in your for...in loop, each image should have the following attributes:
+
+- key: {animal}
+- className: 'animal'
+- alt: {animal}
+- src: {animals[animal].image}
+- aria-label: {animal}
+- role: 'button'
