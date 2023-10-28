@@ -58,3 +58,10 @@ Assuming animal is the placeholder variable in your for...in loop, each image sh
 - src: {animals[animal].image}
 - aria-label: {animal}
 - role: 'button'
+
+10.
+Now that we have our array of images, let’s inject it into the JSX expression.
+
+Within the animalFacts JSX, underneath {background}, create a <div>. Give it a className attribute and set it equal to 'animals'. Nest the array of images inside of this element.
+
+Finally, click Save. We should see our animals!
