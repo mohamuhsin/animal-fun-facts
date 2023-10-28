@@ -17,3 +17,8 @@ For now, let’s import the React from react and createRoot from react-dom/clien
 In addition, create an animalFacts constant to hold the JSX expression that we’ll want to be compiled. Set its value to a < h1 > element that contains our title.
 
 We still shouldn’t see anything in the browser yet! We’ll have to wait until we write our React root’s render() method before anything shows up
+
+5.
+We could fill in the empty string assigned to title if we wanted, but we could also leave it blank and let the JSX use a default value instead.
+
+Using the ternary operator, let the <h1> heading use ‘Click an animal for a fun fact’ as the default if title is an empty string.
