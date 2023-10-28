@@ -64,3 +64,12 @@ Assuming animal is the placeholder variable in your for...in loop, each image sh
 Within the animalFacts JSX, underneath {background}, create a < div >. Give it a className attribute and set it equal to 'animals'. Nest the array of images inside of this element.
 
 Finally, click Save. We should see our animals!
+
+### Adding Fun Facts
+11.
+Now that we have our animals displaying on the screen, we’re ready to add an event listener! But first, let’s write a function to handle this event.
+
+Create a function displayFact() that takes one parameter e, the event. We want this function to pick a random fun fact based on the selected animal.
+Inside of the function, use e.target.alt to get the name of the animal being clicked.
+Generate a random index and use it to access an element in the animal’s .facts array.
+Save the fun fact in a variable.
