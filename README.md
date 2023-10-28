@@ -21,3 +21,10 @@ We still shouldn’t see anything in the browser yet! We’ll have to wait until
 **5.** We could fill in the empty string assigned to title if we wanted, but we could also leave it blank and let the JSX use a default value instead.
 
 Using the ternary operator, let the < h1 > heading use ‘Click an animal for a fun fact’ as the default if title is an empty string.
+
+6.
+It’s time to call our root‘s render() method.
+
+Let’s pass in animalFacts as the JSX expression that we want to be compiled and rendered.
+
+When finished, click Save. If all goes well, we should see the text ‘Click an animal for a fun fact!’ appear on the screen!
