@@ -76,3 +76,10 @@ Finally, click Save. We should see our animals!
 
 
 **12.** We need a place to display our facts. Create an empty < p > element in animalFacts and give it an id attribute equal to 'fact'.
+
+13.
+We’ll need to include the event listener with each <img> and edit the event listener so that it displays the fact in our new <p> element.
+
+In the for...in loop, inside each <img>, add an onClick event listener that calls displayFact.
+Inside displayFact() use document.getElementById('fact') to grab the <p> element where we’ll add our fact. Change the .innerHTML of the <p> element to our randomly selected fact.
+Now save the code and click on an animal. We should see a fact pop up on the screen!
